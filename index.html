@@ -1,0 +1,1184 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Proyecto final</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app8.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js" type="text/javascript"></script>
+ 
+ <script src="phonegap.js"></script> <!--necesario*/-->
+ 
+ 
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/cc.jpg','imagenes/wamp2.jpg','imagenes/javascript.jpg','imagenes/php2.jpg','imagenes/php1.jpg','imagenes/photo2.jpg')">
+
+
+
+<div data-role="page" id="principal" data-theme="c">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+ <h1> Desarrolla Aplicaciones Web (DAW) </h1>
+ </div>
+
+<div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>¿Qué es DAW? </h1>
+   <div>
+    <p align="justify" align="center"> Desarrolla Aplicaciones Web (DAW)
+    es un sumódulo del módulo III de el Centro de Bachillerato Tecnológico
+    Industrial y de servicios n°16 el cual es impartido por el Lic. Francisco
+    José Couto Peláez
+      </p>
+    <br>
+   </div>
+   <div align="center">
+    <img src="imagenes/daw.jpg" width="50%" height="50%">
+   </div>
+  </div>
+ </div>
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>Contenido del 1° bloque</h1>
+   <div>
+      <ul>
+      <li> <h2> HTML</h2> </li> 
+      <li> <p> Elementos básicos </p> </li>
+      <li> <h2> HTML5 </h2> </li>
+      <li> <p> Elementos de bloque </p> </li>
+      <li> <p> Elementos de formulario </p> </li> 
+      <li> <p> Elementos semánticos </p> </li>
+      <li> <h2> CSS </h2> </li>
+      <li> <p> Reglas de estilo </p> </li>
+      <li> <p> Estilos en línea, Interno, Externo
+              Id y Clases</p> </li>
+      <li> <h2> DreamWeaver CS6 </h2> </li>
+      </ul>
+   </div>
+  </div>
+ </div>
+ <div>
+ 
+  <ul data-role="listview" data-theme="c" class="ul-listview ui-group-theme-c">
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>HTML </h2>
+    <p> Definición, etiquetas y elementos </p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> HTML5</h2>
+    <p> Nuevos elementos y etiquetas </p>
+   </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>CSS y Dreamweaver CSS6 </h2>
+    <p>Estilos y CSS6</p>
+   </a>
+   </li>
+   
+    <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>Contenido del 2° bloque</h1>
+   <div>
+      <ul>
+      <li> <h2> WampServer</h2> </li> 
+      <li> <h2> JS </h2> </li>
+      <li> <p> Variables </p> </li>
+      <li> <p> Funciones </p> </li> 
+      <li> <p> Jquery </p> </li>
+      <li> <h2>PHP</h2> </li>
+      <li> <p> Introducción </p> </li>
+      </ul>
+   </div>
+  </div>
+ </div>
+   
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> WampServer </h2>
+    <p> ¿Para qué sirve? </p>
+   </a>
+  </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> JavaSript  </h2>
+    <p> Variables y funciones </p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> PHP </h2>
+    <p>Pequeña introducción a PHP </p>
+   </a>
+   </li>
+   
+    <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>Contenido del 3° bloque</h1>
+   <div>
+      <ul>
+      <li> <h2> PHP</h2> </li> 
+      <li> <p> Variables </p> </li>
+      <li> <p> Funciones </p> </li>
+      <li> <h2> MySQL</h2> </li>
+      <li> <p> Introducción </p> </li>
+      <li> <p> Diseño y creación de Base de Datos </p> </li> 
+      <li> <p> Conexión con PHP  </p> </li>
+      <li> <h2> Subida a la red de sitios web</h2> </li>
+      <li> <h2> Editor de contenido </h2> </li>
+       <li> <p> Photoshop </p> </li>
+      </ul>
+   </div>
+  </div>
+ </div>
+   
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> PHP   </h2>
+    <p> Variables y funciones </p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> MySQL  </h2>
+    <p> Base de Datos y conexión con PHP </p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> Subida a la red de sitios Web </h2>
+    <p> ¿Cómo subir a la red un sitio web? </p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2> Editor de contenido  </h2>
+    <p> Photoshop  </p>
+   </a>
+   </li>
+   </ul>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>Datos del desarrollador</h1>
+   <div align="center">
+      <h4> Centro de Bachillerato Tecnológico Industrial y de Servcios n°16 </h4>
+   <h1 align="center"> 3° PARCIAL PROYECTO FINAL </h1>
+   <h4> Submódulo </h4>
+   <h5> DESARROLLA APLICACIONES MÓVILES </h5>
+   <h4> Profesor </h4>
+   <h5> JOSÉ ANTONIO GÓMEZ HERNÁNDEZ </h5>
+   <h4> Alumna </h4>
+   <h5> JOVITA CASTRO BAUTISTA </h5>
+   <h4> 4° "F" </h4>
+   
+   </div>
+  </div>
+ </div>
+   
+  
+	
+	<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     <div>
+      <img src="res/android/mdpi.png" width="46" height="46">
+      </div>
+   <div> 
+    <h4>Tutorial de DAW</h4>
+    <h4> Jovita Castro Bautista</h4>
+  </div>
+ </div>
+</div>
+
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="a">
+   <h1> HTML	 </h1>
+  </div>
+  <div data-role="content">
+   <div>
+    <h2 align="center" > ¿Qué significan sus siglas? </h2>
+    <div align="center">
+    <img src="imagenes/siglas.jpg" >
+    </div>
+    <h2> HTML ‘tags’ (etiquetas) </h2>
+    <p  align="justify">El código en HTML está formado por un conjunto  de etiquetas (tags).
+El navegador interpreta estas etiquetas al momento de cargar la página.
+Sus símbolos son: &lt;&gt;
+<br>
+Su estructura básica es: &lt; Nombre de la etiqueta &gt;
+<br>
+Tenemos una amplia gama de etiquetas en HTML5,  cada una tiene su propio significado.
+El nombre puede ser escrito en mayúsculas o en minúsculas.
+<br>
+La mayoría de las etiquetas vienen en pares,  es decir:
+<ul>
+<li> Etiqueta Apertura = Inicio </li>
+<li> Etiqueta Cierre = Final (contienen una diagonal /) </li>
+</ul>
+ &lt;Etiqueta apertura&gt; Contenido &lt;/Etiqueta cierre&gt;
+ <br>
+ Tenemos algunas otras etiquetas que no vienen en pares, es decir, solo tiene etiqueta de apertura por ejemplo:
+ <ul>
+ <li>&lt;img&gt; </li>
+ <li> &lt;input&gt;</li>
+ <li>&lt;br&gt; </li>
+ </ul>
+ Las etiquetas junto con su contenido, forman  lo que conocemos como un elemento HTML.
+La etiqueta de apertura de un elemento puede  contener atributos que proporcionan más
+información sobre el elemento
+
+ </p>
+ <h2> Elementos HTML </h2>
+ <p>Todos los elementos HTML se pueden  dividir en dos tipos básicos:
+   <ul>
+   <li>Elementos en línea </li>  
+   <li> Elementos en bloque </li> </p>
+   <h4> Elementos en bloque </h4>
+   </ul>
+   <p>Un elemento en bloque es aquel que contiene un bloque significativo 
+   de contenido que debería mostrarse en su propia línea.
+    Por ejemplo: párrafos, tablas,  listas, etc…
+   </p>
+   <h4> Elementos en línea </h4>
+   <p> Los elementos en línea usualmente contienen menos texto y se muestra
+    junto a otro texto en la misma línea, cómo cuando se enfatizan palabras
+     en una oración
+     <br>
+     Los elementos pueden anidarse, es decir,
+     podemos tener elementos HTML dentro de otro(s) elementos.
+
+   </p>
+   <div align="center">
+   <img src="imagenes/elem.jpg">
+   </div>
+   <h2> El elemento &lt;head&gt; </h2>
+   <p>El elemento head contiene información sobre  el documento HTML,
+    incluyendo palabras clave, enlaces a otros documentos que usa  
+    como archivos CSS y JavaScript
+   <br>
+   A excepción del elemento title que se muestra en la barra de título
+    del navegador, ningún elemento dentro de head  se muestra en el
+     contenido de la página  HTML
+
+ </p>
+ <h4>Elementos de &lt;head&gt; </h4>
+ <ul>
+ <li>Title </li>
+ <li>Meta </li>
+ <li>Link </li>
+ <li>Script </li>
+ <li>Style </li>
+ </ul>
+  <h2> El elemento &lt;body&gt; </h2>
+  <p>Todo el contenido de un documento HTML se  encuentra en el elemento body.
+     El elemento body va después del elemento head  y debe cerrarse antes de la 
+     etiqueta de cierre del elemento html.
+ </p>
+  <h4>Elementos de &lt;body&gt; </h4>
+ <ul>
+ <li>p </li>
+ <li>h1-h6 </li>
+ <li>pre</li>
+ <li>hr </li>
+ <li>em </li>
+ <li>a </li>
+ <li>div </li>
+ <li>span </li>
+ <li>address </li>
+ <li>blockquote </li>
+ <li>br</li>
+ <li>img </li>
+ </ul>
+ 
+ <h4>Elementos de &lt;body&gt;- Listas </h4>
+ <ul>
+ <li>ul </li>
+ <li>ol </li>
+ <li>li</li>
+ <li>dl </li>
+ <li>dt </li>
+ <li>dd</li>
+ </ul>
+ 
+ <h4>Elementos de &lt;body&gt;- Tablas </h4>
+ <ul>
+ <li>table </li>
+ <li>thead</li>
+ <li>tbody</li>
+ <li>tfoot </li>
+ <li>tr </li>
+ <li>th </li>
+ <li>td </li>
+ </ul>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/photo.jpg" alt="photo" title="photo" id="wows2_0"/></li>
+		<li><img src="data2/images/photo2.jpg" alt="photo2" title="photo2" id="wows2_1"/></li>
+		<li><img src="data2/images/php1.jpg" alt="php1" title="php1" id="wows2_2"/></li>
+		<li><img src="data2/images/php2.jpg" alt="php2" title="php2" id="wows2_3"/></li>
+		<li><img src="data2/images/rend.jpg" alt="rend" title="rend" id="wows2_4"/></li>
+		<li><img src="data2/images/sem.jpg" alt="sem" title="sem" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/wamp1.jpg" alt="bootstrap carousel" title="wamp1" id="wows2_6"/></a></li>
+		<li><img src="data2/images/wamp2.jpg" alt="wamp2" title="wamp2" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="photo"><span><img src="data2/tooltips/photo.jpg" alt="photo"/>1</span></a>
+		<a href="#" title="photo2"><span><img src="data2/tooltips/photo2.jpg" alt="photo2"/>2</span></a>
+		<a href="#" title="php1"><span><img src="data2/tooltips/php1.jpg" alt="php1"/>3</span></a>
+		<a href="#" title="php2"><span><img src="data2/tooltips/php2.jpg" alt="php2"/>4</span></a>
+		<a href="#" title="rend"><span><img src="data2/tooltips/rend.jpg" alt="rend"/>5</span></a>
+		<a href="#" title="sem"><span><img src="data2/tooltips/sem.jpg" alt="sem"/>6</span></a>
+		<a href="#" title="wamp1"><span><img src="data2/tooltips/wamp1.jpg" alt="wamp1"/>7</span></a>
+		<a href="#" title="wamp2"><span><img src="data2/tooltips/wamp2.jpg" alt="wamp2"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap carousel example</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    
+    </div>
+  </div>
+  
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+   <h4> Tutorial de DAW</h4>
+   <h4>Jovita Castro Bautista </h4>
+  </div>
+</div>
+  
+  
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="a">
+    <h1>HTML5</h1>
+  </div>
+  
+   <div data-role="content" >
+    <div>
+	 
+    <p align="justify"> HTML5 no es una reformulación de versiones previas.
+
+HTML5 incluye la redefinición de elementos, la inclusión de nuevos elementos
+ e incluye el uso de nuevas tecnologías como video, audio y canvas.
+</p>
+<DIV align="center">
+ <img src="imagenes/HTML5.jpg" width="50%" height="50%">
+ </DIV>
+ <h2> Semántica </h2>
+ <ul>
+ <li>Secciones y contenidos </li>
+ <li>Video y audio </li>
+ <li>Formularios </li>
+ </ul>
+ <div align="center">
+ <img src="imagenes/sem.jpg" width="30%" height="30%">
+ </div>
+ <h2> Conectividad </h2>
+ <ul>
+ <li>Web Sockets </li>
+ <li>Servidor coloca datos en cliente </li>
+ <li>WebRTC</li>
+ </ul>
+ <div align="center">
+ <img src="imagenes/conec.jpg" width="30%" height="30%">
+ </div>
+ <h2> Desconectado y almacenamiento </h2>
+ <ul>
+ <li>IndexedDB </li>
+ <li>Uso de archivos desde aplicaciones web </li>
+ <li>Uso de la caché</li>
+ </ul>
+ <div align="center">
+ <img src="imagenes/desc.jpg"width="30%" height="30%">
+ </div>
+ <h2>Multimedia</h2>
+ <ul>
+ <li>API de cámara</li>
+ <li>Subtítulos</li>
+ <li>Elementos de audio y video</li>
+ </ul>
+ <div align="center">
+ <img src="imagenes/mult.jpg"width="30%" height="30%">
+ </div>
+ <h2> 3D Gráficos y efectos</h2>
+ <ul>
+ <li>WebGL - Canvas</li>
+ <li>API de texto para Canvas</li>
+ <li>SVG</li>
+ </ul>
+ <div align="center">
+ <img src="imagenes/3d.jpg" width="30%" height="30%">
+ </div>
+  <h2> CSS3 Styling</h2>
+ <ul>
+ <li>Bordes</li>
+ <li>Animación</li>
+ <li>Tipografía</li>
+ <li>Diseño responsivo</li>
+ <li>Fondos</li>
+ </ul>
+ <div align="center">
+ <img src="imagenes/css3.jpg" width="30%" height="30%">
+ </div>
+ <h2> Acceso al dispositivo</h2>
+ <ul>
+ <li>Eventos táctiles</li>
+ <li>Geolocalización</li>
+ <li>Detección de orientación del dispositivo</li>
+ <li>API Pointer Lock</li>
+ </ul>
+ <div align="center">
+ <img src="imagenes/disp.jpg" width="30%" height="30%">
+ </div>
+ <h2> Rendimiento</h2>
+ <ul>
+ <li>Web Workers</li>
+ <li>XMLHTTPRequest</li>
+ <li>API historial</li>
+ <li>API Drag and Drop</li>
+ </ul>
+  <div align="center">
+ <img src="imagenes/rend.jpg" width="30%" height="30%">
+ </div>
+ <h2> Elementos depreciados en HTML5 </h2>
+ <div align="center">
+ <img src="imagenes/depre.jpg">
+ </div>
+ <h2> Elementos nuevos en HTML5 </h2>
+ <div align="center">
+ <img src="imagenes/nuevos.jpg">
+ </div>
+ <h2> Fomularios en HTML5 </h2>
+ <p align="justify">Un formulario permite a un usuario ingresar  datos.
+
+La información que se ingresa se manda a un  servidor en un grupo de datos 
+que consisten  del nombre de los elementos y sus valores.
+<br>
+Para hacer uso de un formulario,  utilizaremos las etiquetas: &lt;form&gt; &lt;/form&gt;
+
+Requiere de los atributos action y method,  los cuales son la URL del form-handler y el  método HTTP por el cual se envían los  datos, respectivamente.
+
+ </p>
+ <h4> Partes de un formulario </h4>
+ <ul>
+ <li>&lt;fieldset&gt; <p> sirve para agrupar varios  controles relacionados
+</p>  </li>
+ <li>&lt;legend&gt; <p>proporciona un título para un  elemento fieldset
+ </p> </li>
+ <li>&lt;label&gt; <p>crea una etiqueta o nombre para  un elemento en específico
+ </p> </li>
+ <li>&lt;input&gt; <p> Muchos de los elementos de un  formulario se crean con este elemento.
+ </p>
+ <br>
+Sus 3 atributos más comunes son: </li>
+</ul>
+<ul>
+<li>name </li>
+<li>type </li>
+<li>Value </li>
+
+</ul>
+ 
+ 
+ 
+	  </div> 
+   </div>
+   
+   <div data-role="main" class="ui-content" align="center">
+   <div style="width: 100%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="c">
+     <li class="ui-first-child ui-last-child">
+      <a href=" http://mediaelementjs.com/" target="_self" data-role="button">
+       <h2 align="center"> Enlace interesante</h2>
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  
+   
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+   <h4> Tutorial de DAW</h4>
+   <h4> Jovita Castro Bautista </h4>
+  </div>
+  </div> 
+  
+   <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="c">
+   <h1> CSS</h1>
+  
+ </div>	  
+  <div data-role="content">
+   <div>
+    
+    <p align="justify">Cascading Style Sheets (CSS) ‘Hoja de estilo en cascada’ es un lenguaje
+     usado para definir y crear la presentación de un documento estructurado escrito en HTML.
+     CSS separa la estructura de un documento de su presentación.
+     La información de estilo puede ser definida en un documento separado o en el mismo documento HTML.
+    </p>
+    <div align="center">
+     <img src="imagenes/css.jpg" width="30%" height="30%">
+     </div>
+
+
+   <p align="justify">El organismo W3C (World Wide Web Consortium),  encargado de crear todos los
+    estándares  relacionados con la web, propuso la creación de  un lenguaje de hojas de estilos
+     específico para el lenguaje HTML
+   2 Propuestas:
+   </p>
+   <ul>
+   <li>CHS (Cascading HTML Sheets) por Hakon Wium Lie
+   </li>
+   <li> SSP (Stream-based Style Sheet Proposal) por  Bert Bos.</li>
+   </ul>
+   <div align="center">
+     <img src="imagenes/comb.jpg"  width="30%" height="30%">
+     </div>
+   
+
+ <p align="justify"> Existen tres formas de instertar CSS </p>
+ <ul>
+  
+<li>Un estilo externo
+“nombre_archivo.css ”</li>
+
+<li>Un estilo interno</li> 
+
+
+<li>Un estilo en la linea html (inline) </li>
+</ul>
+ 
+
+
+
+  <h3> Sintáxis </h3>
+
+ <p align="justify"> CSS tiene una sintaxis sencilla, que usa palabras clave (inglés) para
+  especificar los nombres de las propiedades y la mayoría de los valores.
+Se especifica el elemento o elementos a aplicar el estilo (se pueden usar etiquetas, id o
+ clases separadas o se pueden apilar)
+Vienen en pares de nombre/valor: name:value;
+Cada línea terminan con ;
+</p>
+<h3> Modelo de espacio entre los elementos de HTML </h3>
+<div align="center">
+ <img src="imagenes/espacio.jpg" width="50%" height="50%">
+</div>
+<h3>Selectores </h3>
+ <p align="justify">Definen que elementos HTML serán  afectados por las declaraciones</p>
+ <ul>
+ <li>Elementos </li>
+ <li>Clases </li>
+ <li>ID's </li>
+ <li>Descendientes </li>
+ <li>Hijos </li>
+ <li>Adyacentes </li>
+ 
+ </ul>
+ <h3>Selector universal </h3>
+ <p>El selector universal, selecciona todos los  elementos de un documento HTML.
+Se denota por  un “*”
+ </p>
+ <h3>Selectores Tipo etiqueta</h3>
+ <p>Selectores tipo etiqueta o de elementos,  son los más simples y comunes.
+ </p>
+ <h3>Selectores de clase</h3>
+ <p>Se utiliza para especificar un estilo a un  grupo de elementos con la misma clase.
+
+  Su principal característica, es que se identifica por un punto.
+ </p>
+ <h3>Aelectores de ID  </h3>
+ <p>Se utiliza para especificar un estilo a un  elemento mediante su id.
+Su principal característica es que se  identifica por un sharp o gato “#”
+ </p>
+ <h3>Selectores descendientes </h3>
+ <p>Afectan a elementos que están contenidos dentro de otro(s) elementos.
+Lo usamos mediante el uso de un espacio entre cada elemento. </p>
+<h3>Selectores hijos </h3>
+<p> Similares a los selectores descendientes. Pero solo afectaran a los hijos 
+directos, es decir a los descendientes directos.
+Lo usamos con el símbolo “>”
+</p>
+<h3>Selectores hermanos </h3>
+<p>Los selectores de hermanos se emplean para seleccionar elementos adyacentes, es
+ decir  que su elementos padre es el mismo, y ambos  elementos están al mismo nivel.
+ </p>
+<h2>Propiedad Font-Face </h2>
+<p>Permite introducir fuentes nuevas a las predeterminadas de los navegadores.
+Podemos conseguir fuentes de diferentes  sitios web </p>
+
+	 </div>
+     </div>
+  
+ <div data-role="main" class="ui-content" align="center">
+   <div style="width: 100%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+     <li class="ui-first-child ui-last-child">
+      <a href="https://www.fontsquirrel.com" target="_self" data-role="button">
+       <h4 align="center">Página para descargar fuentes</h4>
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <h2 align="center" >DreamWeaver CS6 </h2>
+  <p align="justify">Adobe Dreamweaver es una aplicación en programa de estudio (basada en la forma
+   de estudio de Adobe Flash) que está destinada a la construcción, diseño y edición de sitios, vídeos
+   y aplicaciones Web basados en estándares. Creado inicialmente por Macromedia (actualmente producido
+   por Adobe Systems) es uno de los programas más utilizados en el sector del diseño y la programación
+   web por sus funcionalidades, su integración con otras herramientas como Adobe Flash y, recientemente
+   , por su soporte de los estándares del World Wide Web Consortium. Sus principales competidores son
+    Microsoft Expression Web y BlueGriffon (que es de código abierto) y tiene soporte tanto para edición
+   de imágenes como para animación a través de su integración con otras. Hasta la versión MX, fue
+    duramente criticado por su escaso soporte de los estándares de la web, ya que el código que
+   generaba era con frecuencia sólo válido para Internet Explorer y no validaba como HTML estándar. Esto se ha
+    ido corrigiendo en las versiones recientes. </p> 
+    <div align="center">
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','imagenes/cc.jpg',1)"><img src="imagenes/cs6.jpg" width="50%" height="50%" id="Image35"></a> </div>
+  
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+   <h4> Tutorial de DAW </h4>
+   <h4> Jovita Castro Bautista </h4>
+  </div>
+  </div>
+  
+   
+   
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="a">
+   <h1>WampServer </h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   
+   <p align="justify"> WampServer es un entorno de desarrollo web para Windows
+       en el cual se podrán crear aplicaciones web con Apache, PHP y base de datos
+      en MySQL (motor de base de datos). Esta herramienta incluye ademas con un
+      administrador de base de datos PHPMyAdmin con el cual podremos crear una
+      nueva base de datos e ingresar la data de las tablas creadas en ella,
+      realizar consultas y generar scripts SQL, como exportar e importar scripts
+      de base de datos. WampServer ofrece a los desarrolladores herramientas
+      necesarias para realizar aplicaciones web de manera local, con un sistema
+      operativo (Windows), un manejador de base de datos (MySQL), un software
+      de programación script web PHP. WampSever se caracteriza por que puede
+      ser usado de forma libre es decir no debemos de contar con alguna
+      licencia el cual nos permita el uso de la misma, ya que pertenece
+      a la corriente de "open source".</p>
+   <h3> Utilidad </h3>
+   <p align="justify">Su utilidad es importante a la hora de desarrollar
+    aplicaciones web, ya que funciona al igual como si cuando trabajamos
+     en un servidor web, ya que podemos ejecutar estas aplicaciones de manera
+      local y ver como seria el funcionamiento antes de ser subidas a un hosting
+       o servidor web. Ademas de ello podemos gestionar datos con la ayuda del motor
+        de base de datos (MySQL) y su administrador (PHPMyAdmin).
+     </p>
+     
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/wamp2.jpg',1)"><img src="imagenes/wamp1.jpg" width="50%" height="50%" id="Image32"></a> </div>
+  </div>
+     
+  <div data-role="main" class="ui-content" align="center">
+   <div style="width: 100%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="c">
+     <li class="ui-first-child ui-last-child">
+      <a href="https://es.slideshare.net/aimerodriguezrodriguez/que-es-wamp-server" target="_self" data-role="button">
+       <h4 align="center"> Da click para saber más</h4>
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  
+  
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+   <h4> Tutorial de DAW  </h4>
+   <h4> Jovita Castro Bautista </h4>
+  </div>
+  </div>
+  
+  
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="c">
+   <h1> JavaScript </h1>
+  </div>
+  <div data-role="content">
+   <div>
+    <h3 align="center"> Definición e historia </h3>
+    <p align="justify">JavaScript es un lenguaje de programación interpretado,
+     dialecto del estándar ECMAScript. Se define como orientado a objetos,
+      basado en prototipos, imperativo, débilmente tipado y dinámico.
+      Javascript nació con la necesidad de permitir a los autores de sitio
+      web crear páginas que permitan intercambiar con los usuarios, ya que
+      se necesitaba crear webs de mayor complejidad. El HTML solo permitía
+      crear páginas estáticas donde se podía mostrar textos con estilos,
+      pero se necesitaba interactuar con los usuarios. El HTML solo permitía
+     crear páginas estáticas donde se podía mostrar textos con estilos, pero
+     se necesitaba interactuar con los usuarios. En los años de 1990, Netscape
+      creo Livescript; las primeras versiones de este lenguaje fueron principalmente
+     dedicadas a pequeños grupos de diseñadores Web que no necesitaban utilizar un
+      compilador, o sin ninguna experiencia en la programación orientada a objetos.
+       A medida que estuvieron disponibles nuevas versiones de este lenguaje incluían
+        nuevos componentes que dan gran potencial al lenguaje, pero lamentablemente
+       esta versión solo funcionaba en la última versión del Navigator en aquel momento.
+       JavaScript fue desarrollado originalmente por Brendan Eich de Netscape con el
+        nombre de Mocha, el cuál fue renombrado posteriormente a LiveScript, para
+         finalmente quedar como JavaScript.
+
+El cambio de nombre coincidió aproximadamente con el momento en que Netscape agregó
+ soporte para la tecnología Java en su navegador web Netscape Navigator en la
+  versión 2.0B3 en diciembre de 1995. La denominación produjo confusión, dando
+   la impresión de que el lenguaje es una prolongación de Java, y se ha
+    caracterizado por muchos como una estrategia de mercadotecnia de Netscape
+     para obtener prestigio e innovar en lo que eran los nuevos lenguajes
+     de programación web. </p>
+    
+    <h3 align="center"> Variables </h3>
+    <p align="justify">Las variables se usan para almacenar, recuperar y manipular
+     los valores que aparecen en el código.  Intenta asignar a las variables nombres
+    descriptivos. Así, a los demás les resultará más fácil entender qué hace el código.
+    La primera vez que aparece una variable en un script, es su declaración.
+      La primera mención de la variable la configura en la memoria, para que puedas
+       hacer referencia a ella más adelante en el script.  Hay que declarar las
+      variables antes de utilizarlas.  Para ello, se usa la palabra clave "var".
+      JavaScript es un lenguaje que distingue mayúsculas de minúsculas.
+        Esto significa que un nombre de variable como miContador es distinto
+         del nombre de variable MIContador.  Los nombres de variable pueden
+          tener cualquier longitud.  Las reglas para crear nombres de variable
+       válidos son las siguientes:   
+    
+       </p>
+     <ul>
+     <li>El primer carácter debe ser una letra ASCII (en mayúsculas o minúsculas)
+      o un carácter de subrayado (_).  No puede utilizarse un número como primer carácter.   </li>
+     <li>Los siguientes caracteres deben ser letras, números o caracteres de subrayado (_). </li>
+     <li>El nombre de una variable no puede ser una palabra reservada. </li>
+     </ul>
+    <h3 align="center">Conversión </h3>
+    <p align="justify">JavaScript es un lenguaje con establecimiento flexible de tipos,
+     en comparación con los lenguajes fuertemente tipados como C++.  Esto significa que
+      las variables de JavaScript no tienen ningún tipo predeterminado.  En cambio,
+       el tipo de una variable es el tipo de su valor.  Este comportamiento permite
+        tratar un valor como si fuera de un tipo diferente.  
+
+En JavaScript, puedes realizar operaciones con valores de tipos diferentes sin provocar
+ una excepción.  El intérprete de JavaScript convierte implícitamente uno de los tipos
+  de datos en el otro tipo y, después, realiza la operación.  Las reglas de conversión
+  de los valores alfanuméricos, numéricos y booleanos son las siguientes:   </p>
+   <ul>
+   <li>Si se suman un número y una cadena, el número se convierte en una cadena. </li>
+   <li>Si se suman un valor booleano y una cadena, el tipo booleano se convierte en una cadena. </li>
+   <li>Si se suman un número y un valor booleano, el tipo booleano se convierte en un número.</li>
+   </ul>
+   <div align="center">
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/javascript.jpg',1)"><img src="imagenes/js.jpg" width="50%" height="50%" id="Image26"></a>
+   </div> </div>
+	  
+  </div>
+  
+ <div data-role="main" class="ui-content" align="center">
+   <div style="width: 100%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+     <li class="ui-first-child ui-last-child">
+      <a href="https://www.tutorialspoint.com/javascript/javascript_variables.htm" target="_self" data-role="button">
+       <h4>Da click para saber más</h4>
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+   <h4> Tutorial de DAW </h4>
+   <h4> Jovita Castro Bautista </h4>
+  </div>
+  </div>
+  
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="c">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="c">
+   <h1> PHP </h1>
+  </div>
+<div data-role="content" align="center">
+   <div>
+   <p align="justify">PHP es el lenguaje de lado servidor más extendido en la web. Nacido en 1994, se trata de un lenguaje de creación relativamente reciente, aunque con la rapidez con la que evoluciona Internet parezca que ha existido toda la vida. Es un lenguaje que ha tenido una gran aceptación en la comunidad de desarrolladores, debido a la potencia y simplicidad que lo caracterizan, así como al soporte generalizado en la mayoría de los servidores de hosting, hasta los más simples y económicos.
+
+La facilidad de PHP se basa en que permite embeber pequeños fragmentos de código dentro de lo que sería una página común creada con HTML. Esos scripts PHP nos permiten realizar determinadas acciones de una forma fácil y eficaz, pudiendo realizar todo tipo de tareas, de las más simples a las más complejas. Esta combinación de PHP dentro del marco de un documento HTML es lo que permite a desarrolladores sin prácticamente nada de experiencia crear comportamientos atractivos de una manera sencilla, una de las claves del éxito del lenguaje. En resumen, con PHP escribimos scripts dentro del código HTML. Como ya estamos familiarizados con HTML, empezar a desarrollar con PHP es prácticamente inmediato. Por otra parte, y es aquí donde reside su mayor interés, PHP ofrece un sinfín de funciones para la explotación de todo tipo de recursos, entre los que destacan las bases de datos, a las que podremos acceder de una manera llana, sin complicaciones.
+
+PHP es lo que se denomina una tecnología del lado del servidor, que ahora se suele englobar dentro del término "Backend". Existen diversos competidores de PHP en el mundo Backend y todos tienen sus cosas buenas y malas. Resultaría muy arriesgado decir que una tecnología o un lenguaje sea mejor o peor que otro, pero sí podemos decir que PHP es el lenguaje preferido por el mayor número de programadores dedicados en el área Backend. Como competidores de PHP podríamos mencionar ASP.NET (o ASP tradicional), NodeJS, Ruby, Java, Python y un largo etc. Sin embargo, en nuestra opinión, si lo que quieres es desarrollar páginas web, el más sencillo y directo con el que podrías empezar es PHP.
+
+Otra de las claves del éxito de PHP es que la mayoría de los CMS más populares (WordPress, Joomla!, Drupal) y los sistemas de comercio electrónico (Prestashop, Woocommerce, Magento), así como otros cientos de herramientas, están desarrollados en PHP. Por lo tanto, usar PHP es sinónimo de ser capaz de introducirte en muchas herramientas gratuitas y de código abierto para realizar cualquier cosa en el ámbito de la web. </p>
+<h2>Algunos aspectos fundamentales de PHP </h2>
+<p align="justify">PHP, aunque multiplataforma, fue concebido inicialmente para entornos Linux y es en este sistema operativo donde se pueden aprovechar mejor sus prestaciones. La mayoría de los servidores de Internet y los hosting soportan PHP sobre sistemas operativos Linux, aunque sin embargo, puedes ejecutar PHP en cualquier otro sistema, obteniendo el mismo soporte y los resultados idénticos. Esto permite que puedas desarrollar PHP en cualquier ordenador, independientemente de si usas Windows, Linux o Mac.
+
+El estilo de programación con PHP es totalmente libre. Puedes usar tanto programación estructurada (funciones) como Programación Orientada a Objetos (clases y objetos). Incluso algunas características de la programación funcional están siendo incorporadas actualmente. Es por ello que cualquier tipo de programador puede sentirse cómodo con PHP.
+
+PHP presenta una filosofía de código abierto. Existen multitud de herramientas, librerías, frameworks gratuitos que llevan PHP a un nuevo nivel. Además el propio núcleo del lenguaje tiene una de las más nutridas cantidades de funciones para hacer todo tipo de operaciones. No necesitas invertir nada, de dinero, para disponer de un lenguaje poderoso y los mejores complementos para acelerar tu trabajo. </p>
+
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/php2.jpg',1)"><img src="imagenes/php1.jpg" width="50%" height="50%" id="Image27"></a> </div>
+  </div>
+  
+  <div data-role="main" class="ui-content" align="center">
+   <div style="width: 100%;">
+    <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+     <li class="ui-first-child ui-last-child">
+      <a href="https://www.desarrolloweb.com/articulos/303.php" target="_self" data-role="button">
+       <h4>Da click para saber más</h4>
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  
+  
+  
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+   <h4> Tutorial de DAW  </h4>
+   <h4> Jovita Castro Bautista </h4>
+  </div>
+  </div>
+  
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="c">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="c">
+   <h1> PHP </h1>
+  </div>
+<div data-role="content">
+   <div>
+   <h2> Variables de PHP </h2>
+   <p align="justify" align="center">Las variables son "contenedores" para almacenar información.
+   <br>
+   En PHP, una variable comienza con el signo $, seguido del nombre de la variable
+   <br>
+   Una variable puede tener un nombre corto (como xey) o un nombre más descriptivo
+  (edad, carname, total_volume). </p>
+  <h4 align="center"> Reglas para las variables de PHP </h4>
+  <ul>
+  <li>Una variable comienza con el signo $, seguido del nombre de la variable </li>
+  <li>Un nombre de variable debe comenzar con una letra o el carácter de subrayado </li>
+  <li>Un nombre de variable no puede comenzar con un número </li>
+  <li>Un nombre de variable solo puede contener caracteres alfanuméricos y
+   guiones bajos (Az, 0-9 y _) </li>
+  <li> Los nombres de las variables distinguen entre mayúsculas y minúsculas
+   ($ age y $ AGE son dos variables diferentes)</li>
+  </ul>
+   <h4 align="center">Variables de salida </h4>
+   <p align="center">La declaración de "echo" PHP se usa a menudo para enviar datos a la pantalla. </p>
+   <h3 align="center"> Alcance de las variables de PHP </h3>
+   <p align="justify" align="center">En PHP, las variables se pueden declarar en cualquier parte del script.
+
+El alcance de una variable es la parte del script donde la variable puede ser referenciada / utilizada.
+
+PHP tiene tres ámbitos de variables diferentes: </p>
+<ul>
+<li> Local </li>
+<li> Global </li>
+<li> Estático </li>
+</ul>
+<h3 align="center">Alcance global y local  </h3>
+<p align="justify" align="center">Una variable declarada fuera de una función tiene un ALCANCE GLOBAL
+ y solo se puede acceder fuera de una función.
+ 
+ Una variable declarada dentro de una función tiene un ALCANCE LOCAL y solo se puede
+  acceder dentro de esa función </p>
+  <h3 align="center"> La palabra clave "global" </h3>
+  <p align="justify" align="center">La palabra clave "global" se usa para acceder
+   a una variable global desde dentro de una función.
+
+Para hacer esto, use la palabra clave "global" antes de las variables (dentro de la función)
+PHP también almacena todas las variables globales en una matriz llamada $ GLOBALS [ index ].
+ El índice contiene el nombre de la variable. Esta matriz también se puede acceder desde
+  dentro de las funciones y se puede usar para actualizar las variables globales directamente. </p>
+  <h3 align="center"> La palabra clave "static" </h3>
+  <p align="justify" align="center">Normalmente, cuando se completa / ejecuta una función,
+   todas sus variables se eliminan. Sin embargo, a veces queremos que NO se
+    elimine una variable local. Lo necesitamos para un trabajo adicional.
+Para hacer esto, use la palabra clave "static" cuando declare la variable
+ por primera vez 
+ Luego, cada vez que se llama a la función, esa variable aún tendrá la
+  información que contenía desde la última vez que se llamó a la función.</p>
+   <div align="center"> 
+   <img src="imagenes/php2.jpg" width="50%" height="50%">
+   </div>
+   
+   </div>
+  </div>
+  
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+   <h4> Tutorial de DAW  </h4>
+   <h4> Jovita Castro Bautista </h4>
+  </div>
+  </div>
+  
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="c">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="c">
+   <h1> MySQL </h1>
+  </div>
+<div data-role="content">
+   <div>
+   <p align="justify" align="center">
+MySQL es un sistema de administración de bases de datos (Database Management System, DBMS
+) para bases de datos relacionales. Así, MySQL no es más que una aplicación que permite
+ gestionar archivos llamados de bases de datos.
+
+Existen muchos tipos de bases de datos, desde un simple archivo hasta sistemas
+ relacionales orientados a objetos. MySQL, como base de datos relacional, utiliza 
+ multiples tablas para almacenar y organizar la información. MySQL fue escrito
+  en C y C++ y destaca por su gran adaptación a diferentes entornos de desarrollo
+  , permitiendo su interactuación con los lenguajes de programación más utilizados
+   como PHP, Perl y Java y su integración en distintos sistemas operativos.
+
+También es muy destacable, la condición de open source de MySQL, que hace que su
+ utilización sea gratuita e incluso se pueda modificar con total libertad, pudiendo
+  descargar su código fuente. Esto ha favorecido muy positivamente en su desarrollo
+   y continuas actualizaciones, para hacer de MySQL una de las herramientas más
+    utilizadas por los programadores orientados a Internet. </p>
+    <h3 align="center"> Conexión desde PHP </h3>
+    <p align="justify" align="center">Conectarse a una base de datos MySql desde PHP es sencillo.
+     En un pequeño ejemplo vamos a ver cómo hacerlo. </p>
+     <ul>
+     <li>Creamos un primer archivo llamado por ejemplo “conexion.php”. </li>
+     <li> Incluimos en “conexion.php” el siguiente código: </li>
+     <div align="center"> <img src="imagenes/cd.jpg"> </div>
+     <p align="justify" align="center">Localhost: Indíca a donde se conecta con la DB.
+     Si la conexión es en el mismo servidor, este es el valor que debe ir. Si la
+      conexión se da en otro servidor, debemos incluir la Ip del servidor. En este último 
+      caso, el servidor deberá tener las conexiones remotas abiertas.
+      <br>
+Usuario: Es el usuario de la base de datos. En general lleva el siguiente
+ formato usuariocpanel_usuariodb
+ <br>
+Clave: Es la clave que se corresponde con ese usuario.
+<br>
+Nombrebd: Se corresponde con el nombre de la base de datos.
+ </p>
+     <li>Finalmente para incluir la conexión en cualquier archivo desde el que
+      querramos conectarnos, sólo se debe incluir el siguiente código: </li>
+      <div align="center"> <img src="imagenes/cd2.jpg"> </div>
+     </ul>
+     <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/php1.jpg',1)"><img src="imagenes/mysql.jpg" width="50%" height="50%" id="Image34"></a> </div>
+    </div>
+  </div>
+  
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+   <h4> Tutorial de DAW  </h4>
+   <h4> Jovita Castro Bautista </h4>
+  </div>
+  </div>
+  
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="c">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="c">
+   <h1> Subida a la red de sitios web</h1>
+  </div>
+<div data-role="content" align="center">
+   <div>
+   <p align="justify">Después de todo el trabajo de diseño y marcado
+    con HTML y CSS el ultimo paso para que nuestra pagina este en Internet es
+     subirla a un servidor web para ello debemos contar con algún servicio de
+      hospedaje mejor conocido como hosting que no es mas que un espacio en un
+       servidor web para que podamos subir archivos, generalmente ese tipo de
+      servicios nos ofrecen ademas del espacio en el servidor, un nombre de
+     dominio que es la dirección con la que accederemos a nuestra página,
+      también debemos ver que características nos ofrecen como por ejemplo 
+      la tasa de transferencia mensual, si ofrece base de datos, cuentas de correo, etc. </p>
+      <h2>PASO 1: INSTALAR EL CLIENTE DE FTP FILEZILLA </h2>
+      <p align="justify">Una vez que ya tenemos contratado nuestro servidor vamos
+       a necesitar los datos de la cuenta FTP para que podamos subir nuestros archivos
+        y lo haremos haciendo uso de un cliente FTP como puede ser Filezilla
+         lo podemos descargar e instalar sin ningún costo.
+
+      Para conectarnos al servidor web, Filezilla nos pide 3 datos:
+     <br>
+        Dirección del servidor.
+        <br>
+        Nombre de usuario.
+       Contraseña.
+        <br>
+      Estos datos nos los proporciona la empresa con la que se 
+      haya contratado el hospedaje web. </p>
+      <h2>PASO 2: CONECTARNOS AL SERVIDOR </h2>
+      <p align="justify">Abres el programa Filezilla
+      <br>
+Rellenas los datos de servidor, usuario y contraseña
+<br>
+Haces clic en el botón conexión rápida.
+Si los datos son correctos nos debemos conectar al servidor. </p>
+<h2>PASO 3: SUBIR LOS ARCHIVOS </h2>
+<p align="justify"> La ventana del programa se divide en dos partes,
+ en el lado izquierdo muestra los archivos locales es decir los archivos
+ que tenemos en el equipo y del lado derecho muestra los archivos que
+  tenemos en el  servidor.
+  El siguiente paso es ubicar los archivos html que vamos a subir al servidor,
+  para ello vamos a ir navegando por las carpetas que tenemos en el equipo
+  hasta encontrar los archivos, después en el sitio remoto generalmente
+   tenemos que acceder a la carpeta www o public html que es la que
+  contiene los archivos públicos aunque esto puede variar dependiendo del servidor.
+
+Para subir los archivos realizamos los siguientes pasos:
+Seleccionar los archivos que vamos a subir
+<br>
+Hacemos clic derecho sobre la selección y elegimos la opción subir
+<br>
+Esperamos a que se terminen de subir los archivos al servidor
+<br>
+Una vez que termino la subida de archivos, en el directorio 
+del servidor se deben listar los archivos que subimos.
+Ahora solo nos desconectamos del servidor desde el menú servidor desconectar.
+
+Listo la pagina ya debe estar disponible, para acceder a tu
+ pagina abres el navegador web y escribes la dirección .</p>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/daw.jpg" alt="daw" title="daw" id="wows1_0"/></li>
+		<li><img src="data1/images/3d.jpg" alt="3d" title="3d" id="wows1_1"/></li>
+		<li><img src="data1/images/cc.jpg" alt="cc" title="cc" id="wows1_2"/></li>
+		<li><img src="data1/images/cd.jpg" alt="cd" title="cd" id="wows1_3"/></li>
+		<li><img src="data1/images/cd2.jpg" alt="cd2" title="cd2" id="wows1_4"/></li>
+		<li><img src="data1/images/comb.jpg" alt="comb" title="comb" id="wows1_5"/></li>
+		<li><img src="data1/images/conec.jpg" alt="conec" title="conec" id="wows1_6"/></li>
+		<li><img src="data1/images/cs6.jpg" alt="cs6" title="cs6" id="wows1_7"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/css.jpg" alt="jquery image slider" title="css" id="wows1_8"/></a></li>
+		<li><img src="data1/images/css3.jpg" alt="css3" title="css3" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="daw"><span><img src="data1/tooltips/daw.jpg" alt="daw"/>1</span></a>
+		<a href="#" title="3d"><span><img src="data1/tooltips/3d.jpg" alt="3d"/>2</span></a>
+		<a href="#" title="cc"><span><img src="data1/tooltips/cc.jpg" alt="cc"/>3</span></a>
+		<a href="#" title="cd"><span><img src="data1/tooltips/cd.jpg" alt="cd"/>4</span></a>
+		<a href="#" title="cd2"><span><img src="data1/tooltips/cd2.jpg" alt="cd2"/>5</span></a>
+		<a href="#" title="comb"><span><img src="data1/tooltips/comb.jpg" alt="comb"/>6</span></a>
+		<a href="#" title="conec"><span><img src="data1/tooltips/conec.jpg" alt="conec"/>7</span></a>
+		<a href="#" title="cs6"><span><img src="data1/tooltips/cs6.jpg" alt="cs6"/>8</span></a>
+		<a href="#" title="css"><span><img src="data1/tooltips/css.jpg" alt="css"/>9</span></a>
+		<a href="#" title="css3"><span><img src="data1/tooltips/css3.jpg" alt="css3"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap carousel example</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   
+  </div>
+  </div>
+  
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+   <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+   <h4> Tutorial de DAW  </h4>
+   <h4> Jovita Castro Bautista </h4>
+  </div>
+  </div>
+  
+  <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="c">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-theme="c">
+   <h1>Editor de contenido</h1>
+  </div>
+<div data-role="content" align="center">
+   <div>
+   <h2> Adobe Photoshop </h2>
+   <p align="justify"> Photoshop es el nombre popular de un programa informático
+    de edición de imágenes. Su nombre completo es Adobe Photoshop y está
+     desarrollado por la empresa Adobe Systems Incorporated.
+      Funciona en los sistemas operativos Apple Macintosh y Windows.
+El nombre comercial de este producto se puede traducir del inglés como
+ 'taller de fotos'. Aunque existen otros programas similares como GIMP
+  o PhotoPaint, en la cultura popular se utiliza esta palabra para
+  referirse también al 'retoque digital de una imagen". 
+  Photoshop ofrece un conjunto completo de herramientas de fotografía
+  profesional para convertir tus instantáneas en obras de arte,
+  independientemente de si pretendes hacer ediciones corrientes 
+  o transformaciones totales. Ajusta, recorta, elimina objetos,
+  retoca y repara fotografías antiguas. Juega con los colores,
+  efectos y mucho más para convertir lo corriente en algo extraordinario.
+  Diseña ilustraciones originales, transforma imágenes en cuadros o
+  crea tu propia obra maestra digital. Elabora ilustraciones en 3D
+  que puedes animar o imprimir. Mejora tu trabajo con patrones
+  únicos y efectos llamativos. Pinta líneas y curvas suaves
+  gracias a los pinceles avanzados que funcionan tan rápido como puedes imaginar.
+
+</p>
+   <h3>Photoshop CS6 y Photoshop CC 14.0 </h3>
+      <p align="justify">Photoshop CS6 es la versión de este programa
+       comercializado a partir de 2012. Photoshop CC 14.0 está incluido
+       dentro de Adobe Creative Cloud que es un paquete de programas
+       y aplicaciones que permite tener acceso a nuevas funciones
+        y actualizaciones de estos programas. </p>
+     <h3> Características del photoshop </h3>
+     <p align="justify">Existen varias versiones de este programa.
+      A través de la página web de Adobe Creative Cloud se puede
+       tener acceso a una versión de prueba de un mes y a la adquisición 
+       de este producto de forma mensual o anual.
+
+De un modo general, Photoshop permite modificar imágenes digitalizadas
+, especialmente fotografías. También se utiliza para crear y editar imágenes
+ (por ejemplo, logotipos) y gráficos. La forma, la luz, el color y el fondo
+  son algunos de los aspectos que esta herramienta permite editar. </p>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','imagenes/photo2.jpg',1)"><img src="imagenes/photo.jpg" width="50%" height="50%" id="Image36"></a> </div>
+  </div>
+  
+  
+  
+</body>
+</html>
